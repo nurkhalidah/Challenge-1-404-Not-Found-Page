@@ -1,0 +1,133 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400&700;700&family=Space+Mono:wght@700&display=swap");
+
+*,
+
+::before,
+::after {
+    background: #FFFFFF;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    min-height: 100vh;
+}
+
+header {
+margin: 25px 50px;
+font-family: 'Inconsolata';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 25px;
+letter-spacing: -0.08em;
+text-transform: uppercase;
+color: #333333;
+}
+
+.row {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 5%;
+  }
+
+
+.col-1 {
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.col-1 .scarecrow {
+  max-height: 50vh;
+  max-width: 50vw;
+
+}
+
+.col-2 {
+    position: relative;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+  }
+
+
+h1 {
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: clamp(2rem, -0.75rem + 13vw, 4rem);
+    letter-spacing: -0.035em;
+    color: #333333;
+    max-width: 700px;
+    }
+
+
+p {
+    font-family: 'Space Mono';
+    font-weight: 400;
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+    max-width: 400px;
+    padding-bottom: 36px;
+}
+
+button {
+width: 216px;
+height: 68px;
+background: #333333;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: -0.035em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+
+
+footer {
+width: 100%;
+align-items: center;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #BDBDBD;
+padding-top: 36px;
+position: absolute;
+}
+
+
+@media (min-width: 449px) and (max-width: 888px) {
+    .row {  
+      flex-direction: column;
+      max-width: 888px;
+    }
+    .col-1 {
+      margin: 0px !important;
+    }
+
+.col-2 {
+    margin: 0px !important;
+  }
+}
+
+
+@media (min-width: 100px) and (max-width: 448px) {
+    .row {  
+      flex-direction: column;
+      max-width: 448px;
+    }
+    .col-1 {
+      margin: 0px auto !important;
+    }
+
+    .col-2 {
+        margin: 0px auto !important;
+  }
+}
