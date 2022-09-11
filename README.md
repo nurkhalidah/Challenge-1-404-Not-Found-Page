@@ -1,6 +1,3 @@
-# Challenge-1-404-Not-Found-Page
-My first challenge in Responsive Web Developer by Devchallenges.io
-
 <!-- Please update value in the {}  -->
 
 <h1 align="center">Challenge 1: 404 Not Found Page</h1>
