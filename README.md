@@ -38,10 +38,10 @@
 
 ![screenshot](https://github.com/nurkhalidah/Challenge-1-404-Not-Found-Page/blob/c1a1f6332fd0334eecb70b269c31e56ab593ebde/screenshot%20preview.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-First and foremost I'm not a web developer. I have basic knowledge about html, css & javascript but I am currenlt working as a UXUI designer. I took on this challenge to further enhance my skillset. It took me almost a week to complete this challenge and it is far from perfect but I am happy with it. I referred to a lot of websites & forums because making a responsive webpage is not as easy as it looks. I will continue taking on the challenges and hopefully I will successfully complete it!
+<br> You can view my demo here https://404-not-found-page-khalidah.netlify.app/ </br>
 
+First and foremost I'm not a web developer. I have basic knowledge of HTML, CSS & javascript but I am currently working as a UXUI designer. I took on this challenge to further enhance my skill set. It took me almost a week to complete this challenge and it is far from perfect but I am happy with it. I referred to a lot of websites & forums because making a responsive webpage is not as easy as it looks. I will continue taking on the challenges and hopefully successfully complete them!
 
 ### Built With
 
@@ -72,6 +72,6 @@ Some of the websites I refer to while on development stage.
 
 ## Contact
 
-- Website [your-website.com](https://nurkhalidah.com/)
-- GitHub [@your-username](https://github.com/nurkhalidah)
-- Twitter [@your-twitter](https://twitter.com/nrkhldh)
+- Website https://nurkhalidah.com/
+- GitHub https://github.com/nurkhalidah
+- Twitter https://twitter.com/nrkhldh
